@@ -1,9 +1,11 @@
 package chapter4;
 
+
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Result;
+
 
 
 public class SocialNetworkTest {
@@ -23,7 +25,7 @@ public class SocialNetworkTest {
     }
 
 
-    public GraphDatabaseService createDatabase(){
+    /*public GraphDatabaseService createDatabase(){
         //create nodes
         String createGraph = "CREATE\n" +
                 "(ben:User{name:'Ben'}),\n" +
@@ -47,9 +49,8 @@ public class SocialNetworkTest {
 
         String createIndex = "CREATE INDEX ON :User(name)";
 
-//        GraphDatabaseService db = ;
-
+        GraphDatabaseService db;
 
         return db;
-    }
+    }*/
 }

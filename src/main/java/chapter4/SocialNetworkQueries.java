@@ -2,6 +2,7 @@ package chapter4;
 
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Result;
+
 import java.util.HashMap;
 import java.util.Map;
 
