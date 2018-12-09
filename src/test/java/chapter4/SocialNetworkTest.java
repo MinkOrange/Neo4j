@@ -7,21 +7,19 @@ import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Result;
 
 
-
 public class SocialNetworkTest {
     private static GraphDatabaseService db;
     private static SocialNetworkQueries queries;
 
 
     @BeforeClass
-    public static void init(){
+    public static void init() {
 
     }
 
     @Test
-    public void shouldReturnShortPathBetweenTwoFriends() throws Exception
-    {
-        Result result =queries.distance("Ben","Mike");
+    public void shouldReturnShortPathBetweenTwoFriends() throws Exception {
+        Result result = queries.distance("Ben", "Mike");
     }
 
 
